@@ -14,11 +14,11 @@ implements HolaInterfaz {
 
   }
 
- public String salida() throws java.rmi.RemoteException {
+ public String saluda() throws java.rmi.RemoteException {
    return "Hola mundo";
  }
 
- public String salida(String nombre) throws java.rmi.RemoteException {
+ public String saluda(String nombre) throws java.rmi.RemoteException {
    return "Hola " + nombre + "!";
  }
  
