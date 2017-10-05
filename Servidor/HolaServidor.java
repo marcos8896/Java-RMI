@@ -1,7 +1,7 @@
 public class HolaServidor {
   public static void main(String[] args) {
     try {
-      HolaImpl objetoRemoto = new HolaImpl("rmi://localhost:1099/hola");
+      HolaImpl objRemoto = new HolaImpl("rmi://localhost:2002/saluda");
     } catch(Exception e) { }
   }
 }

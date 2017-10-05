@@ -1,6 +1,8 @@
+import java.rmi.*;
+
 public class HolaImpl 
 extends java.rmi.server.UnicastRemoteObject
-implements HolaIntefaz {
+implements HolaInterfaz {
 
   public HolaImpl(String nombre) throws java.rmi.RemoteException {
     super();
